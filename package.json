@@ -1,17 +1,21 @@
 {
-  "name": "experiment",
+  "name": "Experimental app",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "an experiment re github, webpack, jQuery and THREE.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lsj333/experiment.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lachlan S. James",
+  "email": "lachlan.james@ozemail.com.au",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lsj333/experiment/issues"
@@ -23,6 +27,7 @@
   },
   "dependencies": {
     "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
     "three": "^0.113.2"
   }
 }
